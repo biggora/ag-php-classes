@@ -2,7 +2,7 @@
 # Водяные знаки #
 #### Водяные знаки Пример 1 ####
 Пример создания водяного знака с помощью изображения.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -37,7 +37,7 @@ if($overlayed_image = ImagesHelper::overlay($image_source, $overlay_img,$positio
 ![https://lh5.googleusercontent.com/-jJITTU-GXFo/Tj--f-OCh0I/AAAAAAAALJA/yFOdIa7GnU4/wtmi3_source.gif](https://lh5.googleusercontent.com/-jJITTU-GXFo/Tj--f-OCh0I/AAAAAAAALJA/yFOdIa7GnU4/wtmi3_source.gif)
 #### Водяные знаки Пример 2 ####
 Пример создания водяного знака с помощью текста.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
