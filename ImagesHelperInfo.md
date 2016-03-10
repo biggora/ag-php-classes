@@ -1,7 +1,7 @@
 
 # Информация об изображении #
 Примеры получения основной информации об изображении.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -15,7 +15,7 @@ $height     = ImagesHelper::height($image_source);
 // Получение типа изображения 
 $mime       = ImagesHelper::mime($image_source);
 ```
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
+
 
 ---
 
