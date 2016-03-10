@@ -4,7 +4,7 @@
 
 #### Масштабирование изображения ####
 Изменение размера изображения масштабированием.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -23,7 +23,7 @@ if($scaled_image  = ImagesHelper::scale($image_source,$ratio)) {
 
 #### Изменение размера изображения Пример 1 ####
 Изменение размера изображения с выравниванием по ширине и масштабированием по высоте.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -41,7 +41,7 @@ if($resized_image  = ImagesHelper::resizeto($image_source,$new_width)) {
 ```
 #### Изменение размера изображения Пример 2 ####
 Изменение размера изображения с выравниванием по высоте и масштабированием по ширине.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -61,7 +61,7 @@ if($resized_image  = ImagesHelper::resizeto($image_source,$new_height,$resize_to
 
 #### Изменение размера изображения Пример 3 ####
 Изменение размера изображения без масштабирования и учета прежнего размера.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -78,7 +78,6 @@ if($fix_resized_image  = ImagesHelper::resize($image_source,$width,$height)) {
    ImagesHelper::save($fix_resized_image, $image_source,$prefix,$format);   
 }
 ```
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
 
 ---
 
