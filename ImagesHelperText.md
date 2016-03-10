@@ -3,7 +3,7 @@
 Примеры как создать текст в виде изображения.
 #### Текст как изображение Пример 1 ####
 Создание изображения с текстом, с произвольным выбором цвета текста и фона.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -28,7 +28,7 @@ if($image_text  = ImagesHelper::text($text,$font_size,$path_to_font,$text_color,
 ![https://lh5.googleusercontent.com/-ia6pTwWtLq4/Tj8S-t23wQI/AAAAAAAALHc/FwHWafxoR3w/s1024/txt3_source.png](https://lh5.googleusercontent.com/-ia6pTwWtLq4/Tj8S-t23wQI/AAAAAAAALHc/FwHWafxoR3w/s1024/txt3_source.png)
 #### Текст как изображение Пример 2 ####
 Создание изображения с текстом на прозрачном фоне, в место цвета текста использовано другое изображение.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -47,7 +47,6 @@ if($image_text = ImagesHelper::textto( $image_bg, $text, $font_size, $path_to_fo
 }
 ```
 ![https://lh5.googleusercontent.com/-I8BOUkU6lL8/Tj8Rq6gWq2I/AAAAAAAALHI/ctZM4xi9v7M/txto2_source.gif](https://lh5.googleusercontent.com/-I8BOUkU6lL8/Tj8Rq6gWq2I/AAAAAAAALHI/ctZM4xi9v7M/txto2_source.gif)
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
 
 ---
 
