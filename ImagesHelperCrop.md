@@ -3,7 +3,7 @@
 Иногда требуется из прямоугольного изображения сделать квадратное с сохранением всех пропорций. С помощью ImagesHelper сделать это легко, как показано в описанном ниже примере
 
 #### Сложное масштабирование ####
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -20,7 +20,7 @@ if($quadrate_image  = ImagesHelper::quadrate($image_source,$ratio)) {
 ![https://lh6.googleusercontent.com/-lOCc8X9-aT8/Tj9-ZeqF_bI/AAAAAAAALHs/2r-hSxCMcRo/source.jpg](https://lh6.googleusercontent.com/-lOCc8X9-aT8/Tj9-ZeqF_bI/AAAAAAAALHs/2r-hSxCMcRo/source.jpg)
 ![https://lh3.googleusercontent.com/-y17PINUIlrM/Tj-A8VC-KMI/AAAAAAAALIk/6_BzkWeLQAE/qua_source.gif](https://lh3.googleusercontent.com/-y17PINUIlrM/Tj-A8VC-KMI/AAAAAAAALIk/6_BzkWeLQAE/qua_source.gif)
 #### Вырезание ####
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -39,7 +39,6 @@ if($croped_image  = ImagesHelper::crop($image_source, $src_x, $src_y, $crp_width
 ```
 ![https://lh6.googleusercontent.com/-lOCc8X9-aT8/Tj9-ZeqF_bI/AAAAAAAALHs/2r-hSxCMcRo/source.jpg](https://lh6.googleusercontent.com/-lOCc8X9-aT8/Tj9-ZeqF_bI/AAAAAAAALHs/2r-hSxCMcRo/source.jpg)
 ![https://lh5.googleusercontent.com/-MXMGr6p2qq0/Tj8RpPk9zdI/AAAAAAAALGo/uLRqCjkY1GE/crp_source.jpg](https://lh5.googleusercontent.com/-MXMGr6p2qq0/Tj8RpPk9zdI/AAAAAAAALGo/uLRqCjkY1GE/crp_source.jpg)
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
 
 ---
 
