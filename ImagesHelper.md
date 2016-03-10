@@ -21,7 +21,6 @@
   * [Текст как изображение](ImagesHelperText.md)
   * [Водяные знаки](ImagesHelperWatermark.md)
 
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
 
 ---
 
