@@ -12,7 +12,7 @@ $image_source = './images/test.jpg';
 // Конвертация изображения в другой формат 
 $image_dest = ImagesHelper::convert($image_source,'png');
 ```
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
+
 
 ---
 
