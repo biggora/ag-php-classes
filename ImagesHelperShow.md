@@ -1,7 +1,7 @@
 
 # Вывод изображения в броузер #
 В Данном примере показано как выполнить вывод изображения в броузер, допускается вывод в различных графических форматах.
-```
+```php
 // Подключение класса 
 require_once 'class.images.helper.php'; 
 
@@ -20,7 +20,7 @@ ImagesHelper::show($image);
 */
 
 ```
-#### [Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list)  [Исходный код](http://code.google.com/p/ag-php-classes/source/browse/#svn%2Ftrunk%2FImages) ####
+
 
 ---
 
