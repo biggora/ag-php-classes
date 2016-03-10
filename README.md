@@ -1,7 +1,7 @@
 <img src='https://lh4.googleusercontent.com/-SrV72Q-aqxU/Tj_IYj2egwI/AAAAAAAALJU/rQbzcUv6PXw/Apps-help-browser-icon.png' align='right' />
 # AG PHP Classes #
 
-  * [ImagesHelper - Класс для работы с изображениями](ImagesHelper.md) ([Скачать класс](http://code.google.com/p/ag-php-classes/downloads/list))
+  * [ImagesHelper - Класс для работы с изображениями](https://github.com/biggora/ag-php-classes/blob/wiki/ImagesHelper.md)
     * [Скачивание изображения](https://github.com/biggora/ag-php-classes/blob/wiki/ImagesHelperDownload.md)
     * [Сохранение изображения](https://github.com/biggora/ag-php-classes/blob/wiki/ImagesHelperSave.md)
     * [Вывод изображения в броузер](https://github.com/biggora/ag-php-classes/blob/wiki/ImagesHelperShow.md)
